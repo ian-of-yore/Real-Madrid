@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------------------------
+CSS Styles for the Header Section 
+-----------------------------------*/
+
+.top-container {
+    display: flex;
+    background-color: black;
+    margin-left: 9%;
+    padding-left: 10%;
+    padding-top: 2%;
+    width: 70%;
+    border-radius: 15px;
+}
+
+.header-half {
+    width: 50%;
+}
+
+.header-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.header-text p {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.header-text a {
+    text-decoration: none;
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    padding: 5px 20px;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 5px;
+}
