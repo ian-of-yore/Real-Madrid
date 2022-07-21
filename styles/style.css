@@ -92,6 +92,11 @@ CSS Styles for the Header Section
     margin-left: 32px;
 }
 
+.ucl-button {
+    text-decoration: none;
+    color: black;
+}
+
 .el-classico {
     text-align: center;
     background-color: rgb(213, 49, 49);
