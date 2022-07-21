@@ -1,5 +1,9 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 40px;
+    max-width: 100%;
 }
 
 /* -------------------------------
@@ -9,15 +13,16 @@ CSS Styles for the Header Section
 .top-container {
     display: flex;
     background-color: black;
-    margin-left: 9%;
+    /* margin-left: 9%; */
     padding-left: 10%;
     padding-top: 2%;
-    width: 70%;
+    width: 100%;
     border-radius: 15px;
+    margin-bottom: 40px;
 }
 
 .header-half {
-    width: 50%;
+    width: 130%;
 }
 
 .header-text h1 {
@@ -30,7 +35,7 @@ CSS Styles for the Header Section
     font-size: 15px;
     font-weight: 700;
     color: white;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .header-text a {
@@ -43,4 +48,46 @@ CSS Styles for the Header Section
     font-weight: 700;
     font-size: larger;
     border-radius: 5px;
+}
+
+.header-img {
+    width: 100%;
+}
+
+/* -------------------------------------
+    CSS Styles for the Second Section 
+   ------------------------------------*/
+
+.aside {
+    width: 250px;
+    height: 150px;
+    background-color: black;
+    border-radius: 5px;
+    padding-top: 40px;
+    /* margin-left: 20px; */
+    /* padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 10px; */
+
+}
+
+.upcoming-matches,
+.ucl {
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 180px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 32px;
+}
+
+.el-classico {
+    text-align: center;
+    background-color: rgb(213, 49, 49);
+    color: black;
+    width: 180px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 32px;
 }
