@@ -1,7 +1,5 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin-left: 10%;
-    margin-right: 15%;
     margin-top: 40px;
     max-width: 100%;
 }
@@ -13,16 +11,22 @@ CSS Styles for the Header Section
 .top-container {
     display: flex;
     background-color: black;
-    /* margin-left: 9%; */
-    padding-left: 10%;
-    padding-top: 2%;
-    width: 100%;
+    width: 1050px;
     border-radius: 15px;
     margin-bottom: 40px;
+    margin-left: 7.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 .header-half {
-    width: 130%;
+    width: 50%;
+}
+
+.header-text {
+    padding-left: 50px;
+
 }
 
 .header-text h1 {
@@ -51,7 +55,8 @@ CSS Styles for the Header Section
 }
 
 .header-img {
-    width: 100%;
+    padding-left: 120px;
+    width: auto;
 }
 
 /* -------------------------------------
@@ -101,11 +106,13 @@ CSS Styles for the Header Section
 .second-section {
     display: grid;
     grid-template-columns: 270px auto;
+    width: 1050px;
+    margin-left: 7.5%;
 }
 
 
 .news .carvahal img {
-    width: 245px;
+    width: 250px;
     height: 175px;
 }
 
@@ -150,4 +157,34 @@ CSS Styles for the Header Section
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+}
+
+/* ------------------
+    Footer Styles 
+    -----------------*/
+footer {
+    background-color: black;
+    color: white;
+    height: 250px;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+footer hr {
+    width: 80%;
+}
+
+.footer-contents {
+    font-size: small;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: center;
+    grid-column-gap: 30px;
 }
