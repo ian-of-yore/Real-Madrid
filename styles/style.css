@@ -91,3 +91,36 @@ CSS Styles for the Header Section
     margin-bottom: 20px;
     margin-left: 32px;
 }
+
+/* --------------------
+    Marca-News Styles 
+-----------------------*/
+
+.news .carvahal img {
+    width: 312px;
+    height: 175px;
+}
+
+.news-type {
+    border: 1px solid grey;
+    width: 120px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.news-info {
+    display: grid;
+    grid-template-columns: repeat(2, 90px);
+}
+
+.fa-clock.clock {
+    width: 20px;
+    height: 20px;
+    opacity: 0.25;
+}
+
+.fa-comment-dots {
+    width: 20px;
+    height: 20px;
+    opacity: 0.25;
+}
