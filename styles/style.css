@@ -61,6 +61,11 @@ CSS Styles for the Header Section
     width: auto;
 }
 
+#forward-font {
+    width: 20px;
+    height: 20px;
+}
+
 /* -------------------------------------
     CSS Styles for the Second Section 
    ------------------------------------*/
