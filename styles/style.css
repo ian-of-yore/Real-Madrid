@@ -30,6 +30,7 @@ CSS Styles for the Header Section
     font-size: 15px;
     font-weight: 700;
     color: white;
+    padding-bottom: 10px;
 }
 
 .header-text a {
