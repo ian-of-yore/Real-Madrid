@@ -103,6 +103,7 @@ CSS Styles for the Header Section
 
 .news-type {
     border: 1px solid grey;
+    font-size: small;
     width: 120px;
     padding-left: 10px;
     border-radius: 5px;
