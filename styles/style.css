@@ -16,7 +16,8 @@ CSS Styles for the Header Section
     margin-bottom: 40px;
     margin-left: 7.5%;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
+    /* padding-left: 50px; */
 
 }
 
@@ -55,7 +56,8 @@ CSS Styles for the Header Section
 }
 
 .header-img {
-    padding-left: 120px;
+    padding-left: 50px;
+    padding-top: 50px;
     width: auto;
 }
 
