@@ -65,7 +65,12 @@ CSS Styles for the Header Section
     CSS Styles for the Second Section 
    ------------------------------------*/
 
-
+.second-section {
+    display: grid;
+    grid-template-columns: 270px auto;
+    width: 1050px;
+    margin-left: 7.5%;
+}
 
 
 .aside {
@@ -110,12 +115,7 @@ CSS Styles for the Header Section
 /* --------------------
     Marca-News Styles 
 -----------------------*/
-.second-section {
-    display: grid;
-    grid-template-columns: 270px auto;
-    width: 1050px;
-    margin-left: 7.5%;
-}
+
 
 
 .news .carvahal img {

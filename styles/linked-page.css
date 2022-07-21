@@ -66,6 +66,14 @@ CSS Styles for the Header Section
     Second Section Style of the Linked-Page 
     -----------------------------------------*/
 
+.second-section {
+    display: grid;
+    grid-template-columns: 270px auto;
+    width: 1050px;
+    margin-left: 7.5%;
+}
+
+
 .aside {
     width: 250px;
     height: 150px;
@@ -104,6 +112,43 @@ CSS Styles for the Header Section
     margin-bottom: 20px;
     margin-left: 32px;
 }
+
+
+/* ---------------------
+    UCL Matches Styles 
+    --------------------*/
+
+.ucl-matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.recent-matches img {
+    width: 93px;
+    height: 56px;
+}
+
+.liv-vs-rma {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.recent-matches {
+    box-shadow: 4px 4px 4px rgb(131, 125, 125);
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 250px;
+    padding-top: 10px;
+}
+
+.recent-matches h4,
+p {
+    text-align: center;
+}
+
+
 
 
 
